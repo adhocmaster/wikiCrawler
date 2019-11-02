@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+.vscode/
+apicache-py3/
 __pycache__/
 *.py[cod]
 *$py.class
@@ -102,3 +104,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+notebooks/throttle.ctrl
+testLibraryImports.ipynb
+notebooks/pywikibot.lwp

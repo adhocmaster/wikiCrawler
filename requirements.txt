@@ -1,0 +1,2 @@
+pywikibot=pywikibot-3.0.dev0
+mwparserfromhell=0.6
