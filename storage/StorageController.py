@@ -9,7 +9,7 @@ class StorageController(ABC):
 
 
     @abstractmethod
-    def save(self, obj:any):
+    def save(self, id:any, obj:any):
         """must return some sort of ID
         
         Arguments:
