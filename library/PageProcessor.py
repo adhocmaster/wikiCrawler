@@ -30,10 +30,10 @@ class PageProcessor:
     
 
     def naiveStrip(self, wikiCode:mwparserfromhell.wikicode.Wikicode):
-        """removes the code delimiter, keeps the text. 
+        """removes the code delimiter, keeps the text. Accepts pages and sections in Wikicode format
         
         Arguments:
-            wikiCode {[type]} -- [description]
+            wikiCode {mwparserfromhell.wikicode.Wikicode} -- wikicode for a page or a section.
         """
         return wikiCode.stripCodes()
 

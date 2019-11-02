@@ -13,13 +13,19 @@ class SearchEngine:
            
         self.lang = lang
         self.site = site
-        self.source = pywikibot.Site(lange, site)     
+        self.source = pywikibot.Site(lang, site)     
 
         pass
 
 
     def search(self, keywords):
-        return None
+        raise NotImplementedError
+
+    
+    def getByCategory(self, category):
+        categoryPage = pywikibot.Category(self.source, title=category)
+        return categoryPage.articles()
+
 
     
 
